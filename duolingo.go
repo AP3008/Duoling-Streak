@@ -41,5 +41,6 @@ func getStreak(username string)(int, error){
 		return 0, fmt.Errorf("user not found")
 	}
 
+	fmt.Println(data.Users[0].Streak)
 	return data.Users[0].Streak, nil
 }
