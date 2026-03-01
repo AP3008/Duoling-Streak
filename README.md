@@ -20,10 +20,7 @@ https://duolingo-api-five.vercel.app/user/svg/{username}
 ```
 Returns an SVG with no background of the users current streak, as shown above.  
 
-
-
 ## Example 
-
 
 You can add a snippet like this into your github readme to use the SVG, just put your duolingo username in **{username}**
 
