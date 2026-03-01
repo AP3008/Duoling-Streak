@@ -1,4 +1,4 @@
-package main
+package duolingo
 
 import (
 	"encoding/json"
@@ -14,7 +14,7 @@ type DuolingoResponse struct {
 	Users []User `json:"users"`
 }
 
-func getStreak(username string)(int, error){
+func GetStreak(username string)(int, error){
 	// Grabbing streak info from Duolingo API
 	url := fmt.Sprintf("https://www.duolingo.com/2017-06-30/users?username=%s", username)
 
