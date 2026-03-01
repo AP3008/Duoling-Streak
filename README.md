@@ -16,6 +16,6 @@ This returns the duolingo streak associated with the username
 ```
 https://duolingo-api-five.vercel.app/user/svg/{username}
 ```
-Returns an SVG that with no background of the users current streak. 
+Returns an SVG with no background of the users current streak. 
 
 
