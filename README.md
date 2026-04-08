@@ -10,7 +10,7 @@
 
 ## How to use
 
-There are two public endpoints, all you require is a username to use. This is for testing
+There are two public endpoints, all you require is a username to use.
 
 ```
 https://duolingo-api-five.vercel.app/user/{username}
